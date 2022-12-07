@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+    color: white;
+    cursor: grab;
+}
+
+
+
+/* .header{
+    text-align: center;
+    word-spacing: 1.5rem;
+    background-color: black;
+}
+
+.header a{
+text-decoration: none;
+color: white;
+background-color: black;
+} */
+
+section{
+    position: absolute;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+section .header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0;
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
+section .header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section .header ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 20px;
+}
+
+section .header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.taylorimage{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    opacity: 0.3;
+    margin-left: 20px;
+}
+
+.taylorimage .textonimage1{
+    position: absolute;
+    transform: translate(50%, -50%);
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 70px;
+}
+
+.biography{
+    text-align: relative;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    text-indent: 10px;
+    display: flex;
+}
+
+/* .biography h2{
+    text-align: left;
+} */
+
+.biography p{
+    text-indent: 10px;
+    text-align: left;
+padding: 20px;
+}
+
+.biographypic{
+    margin-top: 50px;
+    margin-left: 80px;
+opacity: 0.5;
+
+}
+
+.discography{
+    color: goldenrod;
+    
+}
+
+.discography p{
+    text-align: center;
+}
+
+ /* .album{
+    display: flex;
+    
+    text-align: center;
+   
+   
+}
+
+
+
+ .album ol{
+    display: flex;
+   
+}
+
+.album ol li{
+    display: flex;
+  font-size: 10px;
+} */
+
+
+
+ .album{
+margin: 20px;
+display: flex;
+letter-spacing: 1px;
+font-size: 12px;
+ }
+
+ p{
+    margin: 10px;
+ }
+
+ .album2{
+    margin: 10px;
+    display: flex;
+    letter-spacing: 1px;
+font-size: 12px;
+ }
+
+ .album3{
+    margin: 10px;
+    display: flex;
+    letter-spacing: 1px;
+font-size: 12px;
+ }
+
+ .everything{
+    padding: 10px;
+ }
+
+ .footer{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+ .footer a{
+    color: white;
+    cursor: pointer;
+ }
+
+ h6{
+    border: 20px;
+    padding: 10px;
+    background-color: rgb(179, 16, 16);
+ }
